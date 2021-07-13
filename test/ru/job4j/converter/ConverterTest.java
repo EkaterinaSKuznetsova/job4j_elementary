@@ -14,6 +14,15 @@ public class ConverterTest {
     }
 
     @Test
+    public void whenConvert280RblThen4Euro() {
+        float in = 280;
+        float expected = 4;
+        float out = Converter.rubleToEuro(in);
+        float eps = 0.01f;
+        Assert.assertEquals(expected, out, eps);
+    }
+
+    @Test
     public void whenConvert6000RblThen100Dlr() {
         float in = 6000;
         float expected = 100;
