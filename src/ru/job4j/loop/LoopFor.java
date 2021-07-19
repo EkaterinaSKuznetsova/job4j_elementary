@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.loop;
+package ru.job4j.loop;
 
 public class LoopFor {
     public static void main(String[] args) {
@@ -6,5 +6,4 @@ public class LoopFor {
             System.out.println(i);
         }
     }
-
 }
