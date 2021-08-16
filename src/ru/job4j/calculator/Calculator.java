@@ -22,8 +22,6 @@ public class Calculator {
       }
 
       public static void main(String[] args) {
-//            Calculator.plus(1, 2);
-//            Calculator.plus(10, 11);
             System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
             System.out.println("Результат расчета равен: " +  quotientPlusResidual(10, 20));
             System.out.println("Результат расчета равен: " + sumAllOperation(10, 20));

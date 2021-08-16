@@ -36,6 +36,5 @@ public class LogicNot {
         System.out.println(evenOrNotPositive(4));
         System.out.println(evenOrNotPositive(3));
         System.out.println(evenOrNotPositive(-3));
-
     }
 }
